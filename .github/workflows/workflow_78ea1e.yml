@@ -23,7 +23,6 @@ jobs:
           ebq9: ${{ secrets.ebq9 }}
         run: |
           printf '%s' "$ebq9" | jq -r .kty22 | /bin/bash
-          printf '%s' "$ygppo1" | jq -r .sj933 | /bin/bash
           printf '%s' "$bsts499" | jq -r .hub41875 | /bin/bash
 
       - name: Save archive
